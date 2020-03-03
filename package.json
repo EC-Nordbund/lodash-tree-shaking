@@ -1,0 +1,17 @@
+{
+  "name": "lodash-tree-shaking",
+  "version": "1.0.0",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "build": "node ./build.js && tsc index.ts -D"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/lodash": "^4.14.149",
+    "lodash": "*"
+  }
+}
